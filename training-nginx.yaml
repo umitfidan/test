@@ -1,7 +1,7 @@
 ---
 - name: Nginx Server Installation
   hosts: training
-  become: yes
+ # become: yes
   tasks:
   - name: Install latest nginx
     yum:
